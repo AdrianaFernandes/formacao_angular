@@ -1,0 +1,10 @@
+{
+    "compilerOptions": {
+        "target": "es6", //irá informar pra qual versão de ES será compilado
+        "outDir": "app/js", // resultado da compilação será guardado neste arquivo
+        "noEmitOnError": true
+    },
+    "include": [
+        "app/ts/**/*" //indicamos o local onde o compilador deve buscar seus arquivos
+    ]
+}
