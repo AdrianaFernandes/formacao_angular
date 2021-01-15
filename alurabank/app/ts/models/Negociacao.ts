@@ -2,17 +2,19 @@ class Negociacao {
 
     //precisa ser definido as propriedades da class
 
-   private _data;
-   private _quantidade;
-   private _valor;
+//    private _data: Date;
+//    private _quantidade: number;
+//    private _valor: number;
 
-    constructor(data, quantidade, valor){
+    //esses parametros que estão escritos no construtor serão atributos privados da propria class negociacao (é um atalho)
+    
+    constructor(private _data: Date, private _quantidade: number, private _valor: number){
 
         //regra da negociação
 
-        this._data = data;
-        this._quantidade = quantidade;
-        this._valor = valor;
+        // this._data = data;
+        // this._quantidade = quantidade;
+        // this._valor = valor;
 
     }
 
